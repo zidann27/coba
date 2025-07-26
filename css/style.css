@@ -1,0 +1,88 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin: 0;
+  color: #444;
+}
+
+h1,
+h2 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.berita {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.berita img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.berita p {
+  line-height: 1.8;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.berita small {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+}
+
+form input[type="file"] {
+  margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #218838;
+}
